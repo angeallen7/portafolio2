@@ -1,0 +1,107 @@
+body {
+  margin: 0 auto;
+  background-color:#E9E9E9;
+  color:#3C2B58;
+  font-family: 'Signika Negative', sans-serif;
+}
+.titulo{
+  font-size: 35px;
+  color:#EBC0BA;
+}
+.navbar {
+  background-color:#2D3035;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 768px;
+ }
+
+ .menu {
+  display: flex;
+  gap: 8px;
+ }
+
+a {
+  color: #EBC0BA;
+  text-decoration: none;
+}
+
+a:hover {
+  color: floralwhite;
+}
+
+.ange {
+  width:300px;
+  border-width:15px;
+  border-color:#774054;
+  border-style: double;
+  }
+
+ img {
+  padding: 05px 05px 05px 05px;
+  margin:15; }
+.contenido {
+display: table;
+}
+.img{
+  display: table-cell;
+  float: left;
+}
+.tex {
+  display: table-cell;
+  float: left;
+  width: 900;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin: 4rem auto;
+ }
+ 
+ .sobremim-descripcion {
+  display: table-cell;
+  }
+
+.experienca {
+  display: flex;
+  margin: 2rem auto;
+  width: 1000;
+  align-self: start;
+}
+  .logos {
+    display: flex;
+   margin: 2em;
+   padding: 1em;
+   justify-content: center;
+   gap: 0px; 
+  }
+  .item { display: flex;
+    
+   }
+   .portafolio{
+    display: flex;
+    justify-content: center;
+    background-attachment:pink ;
+   }
+  
+  .portafolio-intem {
+    display: flex;
+  }
+  .contact__grid {
+    display: flex;
+    justify-content: center;
+  }
+  .contact__item {
+  display: flex;
+  }
+
+  @media screen and (min-width:770px) {
+    body { min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;}
+  }
+    
